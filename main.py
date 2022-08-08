@@ -3,7 +3,7 @@ def task1():
     valuesting = "python"
     print(valuesting)
     inputvalue = input("Введите ваше значение:")
-    print("Ваще значение:" + inputvalue)
+    print(f"Ваще значение:{inputvalue}")
 
 
 
@@ -17,7 +17,7 @@ def task2():
 
 def task3():
     n = int(input("Введите число - "))
-    total = (n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n)))
+    total = n + int(str(n) + str(n)) + int(str(n) + str(n) + str(n))
     print("Сумма чисел n + nn + nnn - %d" % total)
 
 
@@ -60,5 +60,5 @@ def task7():
 
 
 if __name__ == "__main__":
-    task7()
+    task3()
 
