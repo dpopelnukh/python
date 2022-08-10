@@ -18,10 +18,9 @@
 my_list = [12, None, -77, 'True', True, 9.5]
 
 
-def my_type(el):
-    for el in range(len(my_list)):
-        print(type(my_list[el]))
-    return
+def my_type(arr):
+    for el in arr:
+        print(type(el))
 
 
 my_type(my_list)
