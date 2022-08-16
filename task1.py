@@ -10,4 +10,4 @@ def division(a, b):
     return result
 
 
-print(f"Результат деления: {division(a=x, b=y)} ")
+print(f"Результат деления: {division(x, y)} ")
